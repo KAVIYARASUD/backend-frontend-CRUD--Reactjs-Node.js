@@ -1,0 +1,92 @@
+.menu-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+
+.menu-item {
+  display: inline-block;
+  margin-right: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+  position: relative;
+}
+.result a{
+  text-decoration: none;
+}
+img{
+  border-radius: 30px;
+  margin: 50px;
+}
+.sub-menu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #fff;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.menu-item:hover .sub-menu {
+  display: block;
+}
+
+.sub-menu-item {
+  margin-bottom: 8px;
+}
+
+.link {
+  text-decoration: none;
+  color: #000;
+}
+
+.link:hover {
+  text-decoration: underline;
+}
+
+/* Classic Look Styles */
+.menu-list-downs{
+  margin-top: 2cm;
+}
+.menu-list-down{
+  display: inline-block;
+  background-color: rgb(109, 109, 193);
+  border: seashell;
+  position: relative;
+}
+
+
+
+.menu-item {
+  padding: 15px 50px;
+  background-color:transparent;
+  cursor: pointer;
+}
+
+.menu-item:last-child {
+  border-right: none;
+}
+
+.sub-menu {
+  margin-top: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.sub-menu-item {
+  padding: 5px 10px;
+  background-color: #f9f9f9;
+}
+
+.sub-menu-item:last-child {
+  margin-bottom: 0;
+}
+.sub-menu-item>a{
+  text-decoration: none;
+}
+a{
+  text-decoration: none;
+  color: black;
+}

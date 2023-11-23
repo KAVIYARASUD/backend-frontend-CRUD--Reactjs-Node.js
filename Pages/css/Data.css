@@ -1,0 +1,35 @@
+.classic-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: Arial, sans-serif;
+    margin-top: 50px;
+  }
+  .edit-button {
+   
+    background-color: #dd8989;
+    color: #ffffff;
+    margin: 10px;
+    max-width: 90px;
+    
+  }
+  .classic-table th,
+  .classic-table td {
+    border: 1px solid #ccc;
+    padding: 8px;
+  }
+  
+  .classic-table thead {
+    background-color: #f1f1f1;
+  }
+  
+  .classic-table th {
+    text-align: left;
+  }
+  
+  .classic-table tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .classic-table tbody tr:hover {
+    background-color: #e3e3e3;
+  }
